@@ -1,0 +1,16 @@
+build*
+model*
+/bsem3dfwd
+
+*.log
+*.vtk
+*.vtu
+*.rsp
+*.rho
+*.tria
+*.emd
+.DS_Store
+
+.vscode/
+.devcontainer/
+.cache/
