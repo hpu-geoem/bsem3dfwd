@@ -106,7 +106,7 @@ git clone https://github.com/spack/spack.git
 # Initialize spack environment
 source ./spack/share/spack/setup-env.sh
 # Install deal.II and its dependencies
-spack install dealii@master+mpi+petsc+python~p4est~arborx~arpack~slepc~gsl~adol-c~hdf5~gmsh~sundials~oce~cgal~assimp~symengine~examples~ginkgo~threads~muparser build_type=Release ^python@3.10
+spack install dealii@master+mpi+petsc+python~p4est~arborx~arpack~slepc~gsl~adol-c~hdf5~gmsh~sundials~oce~cgal~assimp~symengine~examples~ginkgo~threads~muparser~vtk build_type=Release ^python@3.10
 ```
 
 Note that the `+python` and `+petsc` options are required since BSEM3DFWD uses
@@ -187,9 +187,14 @@ mpirun -np <number of processors> /path/to/bsem3dfwd -options_file path/to/optio
 
 For details about the options file, please refer to the [Options file](/docs/options.md).
 
+## Author
+
+BSEM3DFWD is developed by Ce Qin, Henan Polytechnic University, China.
+
 ## License
 
-BSEM3DFWD is distributed under the MIT License.
+BSEM3DFWD is distributed under the MIT License. Please refer to the [LICENSE](/LICENSE)
+file for more details.
 
 ## Contributing
 

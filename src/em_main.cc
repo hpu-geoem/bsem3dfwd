@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------------
 //
-// Copyright (C) 2023 by The authors
+// Copyright (C) 2023 by Ce Qin <ce.qin@hpu.edu.cn>
 //
 // This file is part of the BSEM3DFWD program.
 //

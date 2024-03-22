@@ -1,3 +1,14 @@
+## ----------------------------------------------------------------------------
+##
+## Copyright (C) 2023 by Ce Qin <ce.qin@hpu.edu.cn>
+##
+## This file is part of the BSEM3DFWD program.
+##
+## This code is licensed under the MIT license found in the
+## LICENSE file in the root directory of this source tree.
+##
+## ----------------------------------------------------------------------------
+
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
 PROJECT(bsem3dfwd CXX)
